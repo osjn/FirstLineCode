@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view.getId() == R.id.send_request) {
 //            String sUrl = "https://www.baidu.com";
 //            String sUrl = "http://10.0.2.2/get_data.xml";
-            String sUrl = "http://10.0.2.2/get_data.json";
+//            String sUrl = "http://10.0.2.2/get_data.json";
+            String sUrl = "http://guolin.tech/api/china";
 //            sendRequestWithHttpURLConnection(sUrl);
             sendRequestWithOkHttp(sUrl);
         }
